@@ -8,17 +8,27 @@ export const Navbar = () => {
   const menu = (
     <>
       <li>
-        <NavLink to={'/'} className="text-lg text-gray-700 hover:text-blue-600">
+        <NavLink to={'/'} className="text-lg">
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink to={'/portfolio'} className="text-lg text-gray-700 hover:text-blue-600">
+        <NavLink to={'/portfolio'} className="text-lg ">
           Portfolio
         </NavLink>
       </li>
       <li>
-        <NavLink to={'/contact'} className="text-lg text-gray-700 hover:text-blue-600">
+        <NavLink to={'/skills'} className="text-lg ">
+       Skills
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to={'/about'} className="text-lg">
+        About
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to={'/contact'} className="text-lg ">
           Contact
         </NavLink>
       </li>
@@ -26,31 +36,8 @@ export const Navbar = () => {
   );
 
   return (
-    <div className="bg-gray-100 py-4">
-      <div className="flex items-center justify-between px-4">
-        {/* Menu Button for Mobile */}
-        <button
-          className="sm:hidden text-2xl text-gray-700"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          <MdMenu />
-        </button>
-
-        {/* Navbar */}
-        <ul
-          className={`flex flex-col hidden md:block sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 justify-center items-center transition-all duration-300 
-            `
-        }
-        >
-          {menu}
-        </ul>
-
-        <ul className={isMenuOpen ? 'block absolute top-14 bg-gray-400  p-4 rounded-2xl transition-all duration-300 ease-in-out' 
-          
-          : 'hidden'}>
-  {menu}
-</ul>
-      </div>
+    <div className="bg-black text-white py-4">
+ 
     </div>
   );
 };

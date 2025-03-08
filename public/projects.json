@@ -1,0 +1,36 @@
+[
+    {
+      "name": "Tourism Management",
+      "image": "https://i.ibb.co.com/7NxpsLG0/makeadventure.jpg",
+      "detailsPage": "/projects/tourism-management",
+      "techStack": ["MongoDB", "Express.js", "React", "Node.js"],
+      "description": "A platform that helps users explore travel destinations, book tours, and manage itineraries.",
+      "liveLink": "https://tourism-management-e5e73.web.app/",
+      "githubRepo": "https://github.com/Tamjid388/Tourism-Management-Client-Side",
+      "challenges": "Implementing a real-time booking system and ensuring scalability.",
+      "futurePlans": "Integrating AI-based travel recommendations and multi-currency support."
+    },
+    {
+      "name": "Hotel Booking System",
+      "image": "https://i.ibb.co.com/5jvR5qr/room8.jpg",
+      "detailsPage": "/projects/hotel-booking",
+      "techStack": ["MongoDB", "Express.js", "React", "Node.js"],
+      "description": "A seamless hotel booking system with real-time availability checks and user authentication.",
+      "liveLink": "https://hotel-quest-87bc7.web.app/",
+      "githubRepo": "https://github.com/Tamjid388/Hotel-Booking-Platform-ClientSide",
+      "challenges": "Handling concurrent booking requests efficiently.",
+      "futurePlans": "Adding AI-powered hotel recommendations and price prediction features."
+    },
+    {
+      "name": "Job Portal",
+      "image": "https://i.ibb.co.com/cJFqmq2/room10.jpg",
+      "detailsPage": "/projects/job-portal",
+      "techStack": ["MongoDB", "Express.js", "React", "Node.js"],
+      "description": "A job portal that connects job seekers with recruiters, featuring job postings and applications.",
+      "liveLink": "https://job-portal-7f6b9.web.app/",
+      "githubRepo": "https://github.com/Tamjid388/Job-Porta-ClientSide",
+      "challenges": "Optimizing search and filtering for a better user experience.",
+      "futurePlans": "Integrating AI-based resume screening and job recommendations."
+    }
+  ]
+  
