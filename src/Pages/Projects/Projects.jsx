@@ -34,12 +34,13 @@ export const Projects = () => {
     <h2 className="text-3xl font-bold text-center mb-6 text-white">Projects</h2>
     <h5 className='text-center mb-12'>Check out my creations—turning ideas into seamless digital experiences!</h5>
     </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-1 bg-black px-2">
+      <div className="grid grid-cols-1 
+      md:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-1 bg-black px-2">
 
         {
           projects.map((card,index)=>
           <div>
-             <Card className="relative max-w-md
+             <Card className="relative 
              border-none  shadow-[0_0_0_0.5px_rgba(255,255,255,0.6)]
                bg-black">
       <CardHeader>

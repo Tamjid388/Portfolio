@@ -47,7 +47,7 @@ export const Skills = () => {
     animate={isInView ? { opacity: 1, scale: 1 } : {}}
     transition={{ duration: 2, delay:index * 0.1 }}
     key={index} 
-    className="flex flex-col items-center py-4  ">
+    className="flex flex-col items-center py-4 ">
       <img src={image.url} alt={image.name} className="w-20  " />
       <p className="mt-2 text-sm font-semibold">{image.name}</p>
     </motion.div>
