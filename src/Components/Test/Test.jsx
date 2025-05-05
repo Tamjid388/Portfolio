@@ -17,12 +17,7 @@ w-40 border-1 flex justify-center my-10 p-4 rounded-3xl">
    alt="" />
 </div>
 
-<div className="relative h-screen bg-black
- bg-[url('https://www.transparenttextures.com/patterns/asfalt-light.png')] bg-repeat flex items-center justify-center">
-  <div className="backdrop-blur-sm bg-white/10 w-40 border border-white/20 flex justify-center p-4 rounded-3xl shadow-lg">
-    <img src="https://i.ibb.co.com/Tx5kFqqf/icons8-react-js-96.png" alt="React Icon" />
-  </div>
-</div>
+
 <div className="relative h-screen bg-black overflow-hidden">
   <div className="z-20 absolute -top-20 -left-20 w-96 h-96 bg-indigo-500 rounded-full blur-3xl opacity-20 animate-spin-slow"></div>
   <div className="absolute bottom-0 right-0 w-80 h-80 bg-pink-500 rounded-full blur-2xl opacity-30 animate-pulse"></div>

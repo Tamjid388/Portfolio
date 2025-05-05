@@ -7,11 +7,11 @@ import { MdCastForEducation } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
 export const Education = () => {
   return (
-    <div className="container mx-auto">
-      <h1 className="text-center text-4xl font-bold mb-4">
+    <div  className="container mx-auto">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-4 sm:mb-6 text-white">
         Education & Certifications
       </h1>
-      <p className="text-center text-gray-500 mb-10">
+      <p className="text-sm sm:text-base lg:text-lg text-center mb-8 sm:mb-12">
         A snapshot of my academic background and technical training.
       </p>
       <div>

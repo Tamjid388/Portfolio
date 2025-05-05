@@ -17,7 +17,7 @@ export const Skills = () => {
     { name: "Express.js", url: "https://i.ibb.co.com/tpm3PfxT/icons8-express-js-96.png" },
     { name: "MongoDB", url: "https://i.ibb.co.com/4gVQJv92/icons8-mongo-db-96.png" },
     { name: "Firebase", url: "https://i.ibb.co.com/bjWTDSNs/icons8-firebase-96.png" },
-    { name: "Python", url: "https://i.ibb.co.com/ynyp8c6b/icons8-python-96.png" },
+    { name: "TypeScript", url: "https://img.icons8.com/?size=100&id=nCj4PvnCO0tZ&format=png&color=000000" },
     {name:"Github" ,
       url:"https://i.ibb.co.com/tMx9DyWG/icons8-github-96.png"}
   ];
@@ -29,10 +29,11 @@ export const Skills = () => {
   
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto ">
+        
         <div className="text-center py-10">
-      <h2 className="text-4xl font-bold">My Skills</h2>
-      <p className="text-lg  mt-2">
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-4 sm:mb-6 text-white">My Skills</h2>
+      <p className="text-sm sm:text-base lg:text-lg text-center mb-8 sm:mb-12">
         Technologies & tools I work with to build amazing web experiences.
       </p>
     </div>
@@ -47,7 +48,7 @@ export const Skills = () => {
     animate={isInView ? { opacity: 1, scale: 1 } : {}}
     transition={{ duration: 2, delay:index * 0.1 }}
     key={index} 
-    className="flex flex-col items-center py-4 ">
+    className="flex flex-col items-center py-4 h-34 hover:border-b">
       <img src={image.url} alt={image.name} className="w-20  " />
       <p className="mt-2 text-sm font-semibold">{image.name}</p>
     </motion.div>

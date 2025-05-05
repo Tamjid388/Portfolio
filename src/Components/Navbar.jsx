@@ -1,60 +1,45 @@
 import React, { useEffect, useState } from 'react';
 import { MdMenu } from 'react-icons/md';
-import { NavLink } from 'react-router';
+import { Link } from 'react-scroll';
+
  // Note: Ensure correct import path
 
 export const Navbar = () => {
-  const [scrolled,setScrolled]=useState(false)
- useEffect(
-  ()=>{
-    const onscroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-        console.log(scrolled);
-      } else {
-        setScrolled(false);
-        console.log(scrolled);
-      }
-    };
-window.addEventListener('scroll',onscroll)
-return()=>window.removeEventListener("scroll",onscroll)
-  },[]
- )
-  const menu = (
-    <>
-      <li>
-        <NavLink to={'/'} className="text-lg">
-          Home
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to={'/portfolio'} className="text-lg ">
-          Portfolio
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to={'/skills'} className="text-lg ">
-       Skills
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to={'/about'} className="text-lg">
-        About
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to={'/contact'} className="text-lg ">
-          Contact
-        </NavLink>
-      </li>
-    </>
-  );
+
+ const menu = (
+  <>
+    
+    <li>
+      <Link activeClass="active" to="education" smooth={true} duration={500} className="text-lg cursor-pointer">
+        Education
+      </Link>
+    </li>
+    <li>
+      <Link to="skills" smooth={true} duration={500} className="text-lg cursor-pointer">
+        Skills
+      </Link>
+    </li>
+    <li>
+      <Link to="projects" smooth={true} duration={500} className="text-lg cursor-pointer">
+      Projects
+      </Link>
+    </li>
+    <li>
+      <Link to="contact" smooth={true} duration={500} className="text-lg cursor-pointer">
+        Contact
+      </Link>
+    </li>
+  </>
+);
+
+
+  
 
   return (
-    <div className="bg-black text-white ">
-      <div    className={`navbar bg-black shadow-md transition-all duration-300 ${
-          scrolled ? 'bg-gray-700/90 shadow-lg' : 'bg-black/80 shadow-md'
-        }`}
+    <div className="bg-black text-white w-11/12 mx-auto
+     sticky top-0 z-50">
+      <div    className={`navbar bg-black shadow-md 
+       transition-all duration-300`}
       
       >
   <div className="navbar-start">
@@ -64,7 +49,7 @@ return()=>window.removeEventListener("scroll",onscroll)
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        className="menu bg-black menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
       {
         menu
       }
@@ -79,8 +64,12 @@ return()=>window.removeEventListener("scroll",onscroll)
       }
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
+  <div className="navbar-end  ">
+  <button className='hidden md:block'>
+  <a href='/resume.pdf' download
+     className="btn bg-main-color border-none text-white 
+     hover:bg-violet-700">Download Resume</a>
+  </button>
   </div>
 </div>
  
