@@ -55,7 +55,7 @@ export const Navbar = () => {
       }
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Tamjid Ahmed</a>
+    <a className=" text-2xl font-extrabold text-[#8A2BE2]">Tamjid Ahmed</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -67,7 +67,7 @@ export const Navbar = () => {
   <div className="navbar-end  ">
   <button className='hidden md:block'>
   <a href='/resume.pdf' download
-     className="btn bg-main-color border-none text-white 
+     className="btn bg-[#8A2BE2] border-none text-white 
      hover:bg-violet-700">Download Resume</a>
   </button>
   </div>

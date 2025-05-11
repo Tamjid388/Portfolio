@@ -1,4 +1,21 @@
 [
+
+  {
+    "name": "Resume360 – Resume Builder",
+    "image": "https://res.cloudinary.com/dto6ulc5n/image/upload/v1746688269/microsoft-edge-6CNB3iD8M4E-unsplash_1_600x400_s8czld.jpg",
+    "detailsPage": "/projects/resume360",
+    "techStack": [ "React","Node.js","Mongoose", "Express.js" ],
+    "description": "A powerful resume builder developed as a team project, offering customizable templates and real-time previews.",
+    "liveLink": "https://resume360.web.app/",
+    "githubRepo": "https://github.com/bikash-sarker-dev/resume360",
+    "challenges": "Implementing drag-and-drop features and ensuring responsive design across templates.",
+    "futurePlans": "Adding analytics for resume performance, expanding AI suggestions, and integrating export options in DOCX format.",
+    "collaboration": true
+    ,
+    "Role":"Front-End"
+  }
+  
+  ,
     {
       "name": "Tourism Management",
       "image": "https://i.ibb.co.com/7NxpsLG0/makeadventure.jpg",
@@ -9,6 +26,9 @@
       "githubRepo": "https://github.com/Tamjid388/Tourism-Management-Client-Side",
       "challenges": "Implementing a real-time booking system and ensuring scalability.",
       "futurePlans": "Integrating AI-based travel recommendations and multi-currency support."
+   ,
+    "Role":"Full Stack (MERN)"
+   
     },
     {
       "name": "Hotel Booking System",
@@ -20,10 +40,12 @@
       "githubRepo": "https://github.com/Tamjid388/Hotel-Booking-Platform-ClientSide",
       "challenges": "Handling concurrent booking requests efficiently.",
       "futurePlans": "Adding AI-powered hotel recommendations and price prediction features."
+    ,
+    "Role":"Full Stack (MERN)"
     },
     {
       "name": "Job Portal",
-      "image": "https://i.ibb.co.com/cJFqmq2/room10.jpg",
+      "image": "https://res.cloudinary.com/dto6ulc5n/image/upload/v1746727398/jobportal_mftoao.webp",
       "detailsPage": "/projects/job-portal",
       "techStack": ["MongoDB", "Express.js", "React", "Node.js"],
       "description": "A job portal that connects job seekers with recruiters, featuring job postings and applications.",
@@ -31,6 +53,8 @@
       "githubRepo": "https://github.com/Tamjid388/Job-Porta-ClientSide",
       "challenges": "Optimizing search and filtering for a better user experience.",
       "futurePlans": "Integrating AI-based resume screening and job recommendations."
+    ,
+    "Role":"Full Stack (MERN)"
     }
   ]
   

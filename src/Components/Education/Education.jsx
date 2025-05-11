@@ -11,7 +11,7 @@ export const Education = () => {
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-4 sm:mb-6 text-white">
         Education & Certifications
       </h1>
-      <p className="text-sm sm:text-base lg:text-lg text-center mb-8 sm:mb-12">
+      <p className="text-sm sm:text-base px-1 lg:text-lg text-center mb-8 sm:mb-12">
         A snapshot of my academic background and technical training.
       </p>
       <div>

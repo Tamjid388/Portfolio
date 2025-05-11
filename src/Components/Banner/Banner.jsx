@@ -25,8 +25,8 @@ export const Banner = () => {
         {/* Left Side */}
         <div className="w-full md:w-1/2 text-white space-y-4">
           <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-            Hello <br></br>
-            <span className="text-main-color">Tamjid Ahmed</span>
+            Hello, <br></br> <span>I am</span><br></br>
+            <span className="text-[#8A2BE2]">Tamjid Ahmed</span>
           </h1>
 
           <TypingAnimation className="text-lg font-poppins">
@@ -42,7 +42,7 @@ export const Banner = () => {
               <a href="/resume.pdf" download>
                 <button
                   className="btn bg-black text-white border border-white
-    hover:bg-main-color
+    hover:bg-[#8A2BE2]
       hover:text-white hover:border-none transition duration-500 ease-in-out"
                 >
                   Download Resume
@@ -52,7 +52,7 @@ export const Banner = () => {
                 <button
                   className="btn bg-black text-white border
      border-white  
-     hover:bg-main-color
+     hover:bg-[#8A2BE2]
       hover:text-white hover:border-none hover:border-transparent
       transition duration-500 ease-in-out
       "

@@ -6,6 +6,7 @@ import { Projects } from "../Projects/Projects";
 import { Education } from "@/Components/Education/Education";
 import { ContactPage } from "../Contact/ContactPage";
 import { Test2 } from "@/Components/Test/Test2";
+import { Footer } from "@/Components/Footer";
 
 export const Home = () => {
   return (
@@ -29,6 +30,9 @@ export const Home = () => {
       </div>
       <div id="contact" className="py-10 md:py-16">
         <ContactPage></ContactPage>
+      </div>
+      <div id="" className="py-10 md:py-16">
+      <Footer></Footer>
       </div>
     </div>
   );
